@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="operatorButton" parent="commonButton">
+        <item name="android:textColor">@color/btnBackground2</item>
+    </style>
+    
+    <style name="digitButton" parent="commonButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+    <style name="commonButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="backgroundTint">#5C5C5C</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+
+</resources>
